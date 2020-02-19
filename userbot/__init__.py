@@ -142,6 +142,10 @@ GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
 TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY",
                                          "./downloads")
 
+#google image search 
+GCS_DEVELOPER_KEY = os.environ.get("GCS_DEVELOPER_KEY", None)
+GCS_CX = os.environ.get("GCS_CX", None)
+
 # Setting Up CloudMail.ru and MEGA.nz extractor binaries,
 # and giving them correct perms to work properly.
 if not os.path.exists('bin'):

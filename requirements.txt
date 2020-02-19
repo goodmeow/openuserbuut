@@ -20,7 +20,7 @@ humanize
 lxml
 #numpy
 oauth2client
-Pillow>=5.3.0
+Pillow==6.0.0
 psycopg2
 psycopg2-binary
 pybase64>=0.4.0
@@ -44,3 +44,4 @@ coffeehouse
 telegraph
 wget
 python-dateutil
+Google-Images-Search==1.0.1
