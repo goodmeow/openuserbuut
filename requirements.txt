@@ -20,7 +20,7 @@ humanize
 lxml
 #numpy
 oauth2client
-Pillow==6.0.0
+Pillow==6.2.0
 psycopg2
 psycopg2-binary
 pybase64>=0.4.0
